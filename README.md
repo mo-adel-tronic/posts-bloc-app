@@ -40,3 +40,7 @@ samples, guidance on mobile development, and a full API reference.
     - data_state
     - usecases
     - widgets
+
+## Handle Data State
+
+>> Go to core > data_atate > to handle different data states
