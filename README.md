@@ -33,4 +33,10 @@ samples, guidance on mobile development, and a full API reference.
         - models
         - repository
   - config
-    - 
+    - routes
+    - theme
+  - core
+    - constants
+    - data_state
+    - usecases
+    - widgets
