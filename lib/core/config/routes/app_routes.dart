@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:pizza/core/constants/routes_name.dart';
+import 'package:pizza/core/config/routes/routes_name.dart';
 
 class AppRouter {
   Route? generateRoute(RouteSettings settings) {

@@ -17,29 +17,35 @@ samples, guidance on mobile development, and a full API reference.
 
 ## Project folder structure (Clean Archeticture)
 
-- lib:
-  - features
-    - auth
-      - presentation
-        - pages
-        - widgets
-        - bloc
-      - domain
-        - entities
-        - usecases
-        - repository
-      - data
-        - data_sources
-        - models
-        - repository
-  - config
-    - routes
-    - theme
-  - core
-    - constants
-    - data_state
-    - usecases
-    - widgets
+lib/
+│
+├── features
+|   ├── feature_name/
+│   │   ├── presentation/
+|   |   |   ├── pages/
+│   │   |   ├── widgets/
+|   |   |   └── bloc/
+│   │   ├── data/
+|   |   |   ├── data_sources/
+│   │   |   ├── models/
+|   |   |   └── repositories/
+|   |   └── domain/
+|   |   |   ├── entities/
+│   │   |   ├── repositories/
+|   |   |   └── usecases/
+├── core/
+│   ├── config/
+│   │   ├── theme.dart
+│   │   └── routes.dart
+│   ├── utils/
+│   │   ├── constants.dart
+│   │   ├── extensions.dart
+│   │   └── helpers.dart
+│   └── widgets/
+│   |   ├── custom_button.dart
+│   |   └── custom_text_field.dart
+│
+└── main.dart
 
 ## Handle Data State
 
