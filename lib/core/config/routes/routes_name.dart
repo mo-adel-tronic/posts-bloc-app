@@ -1,3 +1,4 @@
 class AppCharRoute {
-  static const String splash = '/';
+  static const String posts = '/';
+  static const String addOrUpdate = '/addOrUpdate';
 }
